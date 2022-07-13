@@ -129,9 +129,8 @@ These instructions are meant for developers who have made a tool and want to int
 Credits
 -------
 
-{% if is_open_source %} 
 * This package was created with `Cookiecutter <https://github.com/cookiecutter/cookiecutter>`_ as a simplified version of the `audreyr/cookiecutter-pypackage project template <https://github.com/audreyr/cookiecutter-pypackage>`_.
 * Free software: {{ cookiecutter.open_source_license }} 
-* Documentation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io. {% endif %}
+* Documentation: https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io.
 
 
